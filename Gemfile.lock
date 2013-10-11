@@ -65,14 +65,6 @@ GIT
       spree_core (~> 2.2.0.beta)
       spree_frontend (~> 2.2.0.beta)
 
-GIT
-  remote: git://github.com/spree/spree_i18n.git
-  revision: d44e6322e764996ebbb1d4c9e6711c8840bfc043
-  specs:
-    spree_i18n (3.0.0)
-      rails-i18n (~> 0.7.3)
-      spree_core (~> 2.2.0.beta)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -210,8 +202,6 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.0)
       sprockets-rails (~> 2.0.0)
-    rails-i18n (0.7.4)
-      i18n (~> 0.5)
     railties (4.0.0)
       actionpack (= 4.0.0)
       activesupport (= 4.0.0)
@@ -286,7 +276,6 @@ DEPENDENCIES
   sdoc
   spree!
   spree_auth_devise!
-  spree_i18n!
   thin
   turbolinks
   uglifier (>= 1.3.0)

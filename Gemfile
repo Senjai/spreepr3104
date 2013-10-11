@@ -4,8 +4,8 @@ ruby "2.0.0"
 
 gem 'spree', github: 'spree/spree', branch: 'master', ref: "d17f55d70a7819a6294080a2e7810fbf3afe243a"
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise'
-gem 'spree_i18n', github: 'spree/spree_i18n'
-gem 'globalize3', github: 'svenfuchs/globalize3', branch: 'rails4'
+#gem 'spree_i18n', github: 'spree/spree_i18n'
+#gem 'globalize3', github: 'globalize/globalize', branch: 'rails4'
 
 gem 'pg'
 gem 'thin'
