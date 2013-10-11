@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/globalize/globalize.git
+  revision: d700eadcfb5da63924205235c30967a5ac3eeae5
+  branch: rails4
+  specs:
+    globalize (4.0.0.alpha.1)
+      activemodel (>= 4.0.0)
+      activerecord (>= 4.0.0)
+      paper_trail (~> 3.0.0.beta)
+
+GIT
   remote: git://github.com/spree/spree.git
   revision: d17f55d70a7819a6294080a2e7810fbf3afe243a
   ref: d17f55d70a7819a6294080a2e7810fbf3afe243a
@@ -64,6 +74,14 @@ GIT
       spree_backend (~> 2.2.0.beta)
       spree_core (~> 2.2.0.beta)
       spree_frontend (~> 2.2.0.beta)
+
+GIT
+  remote: git://github.com/spree/spree_i18n.git
+  revision: d44e6322e764996ebbb1d4c9e6711c8840bfc043
+  specs:
+    spree_i18n (3.0.0)
+      rails-i18n (~> 0.7.3)
+      spree_core (~> 2.2.0.beta)
 
 GEM
   remote: https://rubygems.org/
@@ -177,6 +195,8 @@ GEM
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     orm_adapter (0.4.0)
+    paper_trail (3.0.0.beta1)
+      activerecord (>= 3.0, < 5.0)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
@@ -202,6 +222,8 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.0.0)
       sprockets-rails (~> 2.0.0)
+    rails-i18n (0.7.4)
+      i18n (~> 0.5)
     railties (4.0.0)
       actionpack (= 4.0.0)
       activesupport (= 4.0.0)
@@ -268,6 +290,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  globalize!
   jbuilder (~> 1.2)
   jquery-rails
   pg
@@ -276,6 +299,7 @@ DEPENDENCIES
   sdoc
   spree!
   spree_auth_devise!
+  spree_i18n!
   thin
   turbolinks
   uglifier (>= 1.3.0)
