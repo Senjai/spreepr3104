@@ -9,7 +9,7 @@ gem 'globalize', github: 'globalize/globalize', branch: 'rails4'
 
 gem 'pg'
 gem 'thin'
-
+gem 'sqlite3', group: [:development, :test]
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
